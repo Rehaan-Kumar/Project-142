@@ -74,8 +74,7 @@ function draw() {
       circle(X , Y , 20);
   }
 
-  if(game_status == "start"){}
-
+  if(game_status == "start"){
   fill("black");
   stroke("black");
   rect(680, 0, 20, 700);
@@ -112,6 +111,7 @@ function draw() {
 
   //function move call which in very important
   move();
+  }
 }
 
 
